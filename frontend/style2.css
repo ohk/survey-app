@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 29);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.mainbox {
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15%;
+}
+
+button[name='btnCreateSurvey'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[name='btnCreateSurvey']:hover {
+    cursor: pointer;
+    background: rgb(240, 164, 23);
+    color: #fff;
+}
+
+.mainbox button[name='btnListSurvey'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.mainbox button[name='btnListSurvey']:hover {
+    cursor: pointer;
+    background: rgb(240, 164, 23);
+    color: #fff;
+}
+
+.mainbox button[name='btnLogin'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.mainbox button[name='btnLogin']:hover {
+    cursor: pointer;
+    background: rgb(240, 164, 23);
+    color: #fff;
+}
+
+.mainbox button[name='btnRegister'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 67%;
+}
+
+.mainbox button[name='btnRegister']:hover {
+    cursor: pointer;
+    background: rgb(240, 164, 23);
+    color: #fff;
+}
+
+.btnMySurveys {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 73%;
+}

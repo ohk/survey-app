@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 29);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.fill-blank-answer-div {
+    background-color: grey;
+}
+
+.pie-chart-extend {
+    margin-top: 25px;
+    margin-left: 10%;
+
+    padding-bottom: 25px;
+}
+.container {
+    top: 25%;
+    left: 20%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.container a[name='a']:hover {
+    cursor: pointer;
+    background: #fb2525;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.labelSurveyTitle {
+    color: white;
+    margin-top: 20px;
+    margin-left: 0%;
+    font-size: 20px;
+}
+.surveyTitle {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.form-check {
+    color: white;
+    float: right;
+    margin-right: 5%;
+    margin-top: -65px;
+    font-size: 18px;
+}
+
+.btnSave {
+    background-color: #fb2525;
+    color: #ffffff;
+    float: right;
+    margin-right: -15%;
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.questionLabel {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.form-grop {
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.add {
+    margin-left: 22%;
+    margin-top: -32px;
+    color: #ffffff;
+    background-color: rgb(56, 56, 56);
+    font-size: 14px;
+}
+
+.add:hover {
+    margin-left: 22%;
+    margin-top: -32px;
+    color: #fff;
+    background-color: rgb(240, 164, 23);
+    font-size: 14px;
+}
+
+.questionBox {
+    background-color: rgb(56, 56, 56);
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, 15%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.questionBox {
+    background-color: rgb(56, 56, 56);
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, 15%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.option {
+    width: 78%;
+    margin-top: 3%;
+}
+
+.btnOption {
+    background-color: rgb(28, 28, 29);
+    color: #ffffff;
+    margin-top: 3%;
+    font-size: 14px;
+}
+
+.btnOption:hover {
+    color: #fff;
+    background-color: rgb(240, 164, 23);
+    margin-top: 3%;
+    font-size: 14px;
+}
+
+.btnDelete {
+    background-color: rgb(240, 164, 23);
+    color: white;
+    margin-top: 3%;
+    font-size: 14px;
+    float: right;
+}
+.btnSaveQuestion {
+    background-color: rgb(240, 164, 23);
+    color: white;
+    margin-top: 3%;
+    font-size: 14px;
+    float: right;
+    margin-right: 1%;
+}
+.questionBox2 {
+    background-color: rgb(56, 56, 56);
+    width: 50%;
+    height: 260px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.answer {
+    margin-top: 3%;
+    width: 100%;
+    height: 100px;
+}
+
+.btnSaveSurvey {
+    background-color: #fb2525;
+    color: #ffffff;
+    float: right;
+    margin-right: 5%;
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.question {
+    color: #fff;
+}
+
+.labelSurveyMail {
+    color: white;
+    margin-top: 20px;
+    margin-left: 0%;
+    font-size: 16px;
+}
+
+.surveyMail {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.surveyBox {
+    background-color: rgb(56, 56, 56);
+    width: 50%;
+    height: auto;
+    margin-top: 45px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+.questionText {
+    font-size: 20px;
+    color: black;
+}
+
+.myList {
+    margin-bottom: 60px;
+}
+
+.question-textarea {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(206, 198, 198);
+}
+
+.radio {
+    color: black;
+}
+
+.radio-option {
+    margin-top: 15px;
+}
+
+.note {
+    color: gray;
+}
+
+.dueDate {
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+    margin-top: -30px;
+}
+
+.btnDeleteMySurvey {
+    background-color: #fb2525;
+    color: white;
+    margin-top: -45px;
+    font-size: 14px;
+    float: right;
+    margin-right: -20%;
+}
+
+.btnResultMySurvey {
+    background-color: cyan;
+    color: black;
+    margin-top: -45px;
+    font-size: 14px;
+    float: right;
+    margin-right: -9%;
+}
+
+.toggle {
+    margin-left: -11%;
+    margin-top: -40px;
+}
+
+.result-open-ended {
+    color: white;
+    margin-top: 25px;
+    margin-left: 10%;
+    padding-bottom: 25px;
+}
+
+.result-multi-single {
+    color: white;
+    margin-top: 25px;
+    margin-left: 10%;
+    padding-bottom: 25px;
+}
+
+.result-multi-multi {
+    color: white;
+    margin-top: 25px;
+    margin-left: 10%;
+    padding-bottom: 25px;
+}
+
+.result-open-ended-question {
+    font-size: 25;
+}
+
+.result-multi-single-question {
+    font-size: 25;
+}
+
+.result-multi-multi-question {
+    font-size: 25;
+}
+
+.btnExport {
+    float: right;
+    margin-right: 25px;
+    background-color: green;
+    color: white;
+}

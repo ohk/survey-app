@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" type="text/css" href="style3.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="surveyTitle">
+            <label class="labelSurveyTitle">Enter the title of survey:</label>
+            <input type="text" class="form-control" placeholder="Title" id="surveyTitle" />
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label" for="term"> <input type="checkbox" class="form-check-input" id="terms" />I accept that this survey is public </label>
+        </div>
+
+        <div class="dueDate">
+            <input type="date" class="form-control" placeholder="Due Date" id="surveyFinishDate" />
+        </div>
+
+        <div>
+            <button type="submit" id="surveySave" class="btn btnSave" onclick="saveSurvey()">
+                Save the Survey!
+            </button>
+        </div>
+
+        <div class="form-grop">
+            <select class="form-control-sm" id="select-box">
+                <option value="2">Multiple Single-Choice Question</option>
+                <option value="3">Multiple Multi-Choice Question</option>
+                <option value="1">Open-Ended Question</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn add" id="addQuestion" onclick="addFunction()">
+            Add
+        </button>
+        <div class="myList" id="myList1"></div>
+        <div id="questions" class="surveyBox"></div>
+
+        <div id="firstQuestion" style="display: none;">
+            <div class="questionBox" id="Soru">
+                <input type="text" class="form-control" id="Qtext" placeholder="Enter the question here" />
+                <div class="optionClass">
+                    <input type="text" class="form-control-sm option" name="optionText1" placeholder="Enter the option here" />
+                    <input type="text" class="form-control-sm option" name="optionText2" placeholder="Enter the option here" />
+                </div>
+                <button type="submit" class="btn btnOption" id="addOption">
+                    Add another option
+                </button>
+                <button type="submit" class="btn btnDelete" id="deleteQuestion">
+                    Delete!
+                </button>
+                <button type="submit" class="btn btnSaveQuestion" id="saveQuestion">
+                    Save!
+                </button>
+            </div>
+        </div>
+        <div id="secondQuestion" style="display: none;">
+            <div class="questionBox">
+                <input type="text" class="form-control" id="SoruMetni" placeholder="Enter the question here" />
+                <textarea type="text" class="form-control-sm answer" disabled="disabled" placeholder="Answer" rows="7"></textarea>
+                <button type="submit" class="btn btnDelete" id="deleteQuestion">
+                    Delete!
+                </button>
+                <button type="submit" class="btn btnSaveQuestion" id="saveQuestion">
+                    Save!
+                </button>
+            </div>
+        </div>
+
+        <script src="createSurvey.js"></script>
+        <script src="createSurvey2.js"></script>
+    </body>
+</html>

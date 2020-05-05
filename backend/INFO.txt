@@ -1,0 +1,4 @@
+questionTypes:
+1: text input
+2: select only one
+3: multiple select
